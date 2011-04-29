@@ -1,12 +1,12 @@
 #TIUError
-*A utility subclass of NSError, adding helper class factory methods that include a stack trace in the user info, and overriding description to display the user info on a Mac*  
+*A utility subclass of NSError, adding helper class factory methods that include a stack trace in the user info, and overriding `description` to display the user info on a Mac*  
 
 Tim Isted  
 [http://www.timisted.net](http://www.timisted.net)  
 Twitter: @[timisted](http://twitter.com/timisted)
 
 ##License
-TIUError is offered under the **MIT** license.
+`TIUError` is offered under the **MIT** license.
 
 ##Summary
 `TIUError` is a utility subclass of `NSError` to add a few class factory methods, each of which include a stack trace in the user info:
@@ -73,7 +73,6 @@ Using the following code in an iOS application's app delegate running on an iPho
 
     - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
     {
-     
         self.window.rootViewController = self.viewController;
         [self.window makeKeyAndVisible];
     
